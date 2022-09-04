@@ -1,0 +1,85 @@
+.event_container {
+  border: 2px solid white;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 440px;
+  width: 500px;
+  margin: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  padding: 0px !important;
+}
+
+.event_location {
+  position: absolute !important;
+  width: 100%;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+.event_location img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.event_container img {
+  height: 200px;
+  width: 93%;
+  object-fit: cover;
+  margin: 15px 0px 15px 0px;
+}
+
+.event_details {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.event_details::-webkit-scrollbar {
+  width: 12px;
+}
+
+.event_details::-webkit-scrollbar-track {
+  background: white;
+}
+
+.event_details::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: rgba(225, 194, 137, 0.366);
+}
+
+.event_details .link {
+  text-decoration: none;
+}
+
+.event_details h3 {
+  font-weight: bold;
+  color: rgb(68, 67, 67);
+}
+
+.event_details h3:hover {
+  color: #000;
+}
+
+.event_details .btn_style {
+  outline: none !important;
+  position: absolute;
+  right: 30px;
+  transition: 0.3s all ease;
+}
+
+._message h6{
+  color: grey;
+}
