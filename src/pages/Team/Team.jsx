@@ -64,7 +64,7 @@ export default function Team() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <div className="accordion-content">
-                <div className="w-100 row justify-content-center custom_member">
+                <div className="row justify-content-center custom_member">
                   {currentPrevYearTeam}
                 </div>
               </div>

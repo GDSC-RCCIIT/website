@@ -1,6 +1,5 @@
 {
   "name": "react-node-website",
-  "homepage": "https://github.com/GDSC-RCCIIT/website-22",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
