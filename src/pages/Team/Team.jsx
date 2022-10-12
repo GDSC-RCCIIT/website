@@ -64,7 +64,7 @@ export default function Team() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <div className="accordion-content">
-                <div className="row justify-content-center custom_member">
+                <div className="d-flex flex-wrap justify-content-center custom_member">
                   {currentPrevYearTeam}
                 </div>
               </div>
@@ -131,15 +131,15 @@ export default function Team() {
       <div className="contact_container" id="star-five ">
         <h4 className="text-center custom_heading">Management</h4>
         <div className="border_animation"></div>
-        <div className="row justify-content-center">{teamLead}</div>
+        <div className="d-flex flex-wrap justify-content-center">{teamLead}</div>
         <br></br>
         <h4 className="text-center custom_heading">Core Team</h4>
         <div className="border_animation"></div>
-        <div className="row justify-content-center custom_member">{team}</div>
+        <div className="d-flex flex-wrap justify-content-center custom_member">{team}</div>
         <br></br>
         <h4 className="text-center custom_heading">Other members</h4>
         <div className="border_animation"></div>
-        <div className="row justify-content-center custom_member">
+        <div className="d-flex flex-wrap justify-content-center custom_member">
           {otherMembersList}
         </div>
         {prevTeamsList}

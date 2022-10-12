@@ -47,7 +47,7 @@ export default function Speakers() {
         </h2>
         <div className="border_animation"></div>
         <div className="container">
-          <div className="row justify-content-center">{speakersList}</div>
+          <div className="d-flex justify-content-center flex-wrap">{speakersList}</div>
         </div>
       </div>
       <Footer />
