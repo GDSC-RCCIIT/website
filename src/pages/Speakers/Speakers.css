@@ -1,57 +1,56 @@
 .speakers_page_title {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 .speaker_container {
-    border: 2px solid white;
-    background-color: white;
-    overflow: hidden;
-    padding: 0px 20px;
-    border-radius: 5%;
-    height: 350px;
-    width: 320px;
-    margin: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  background-color: white;
+  overflow: hidden;
+  padding: 0px 20px;
+  border-radius: 5%;
+  height: 350px;
+  width: 320px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 .speaker_container img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 
 .speaker_name {
-    color: black;
+  color: black;
 }
 
 .speaker_bio {
-    height: 90px;
-    width: 100%;
-    color: gray;
-    text-align: center;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  height: 90px;
+  width: 100%;
+  color: gray;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .speaker_details {
-    color: gray;
-    white-space: nowrap;
+  color: gray;
+  white-space: nowrap;
 }
 
 .speaker_bio::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 .speaker_bio::-webkit-scrollbar-track {
-    background: white;
+  background: white;
 }
 
 .speaker_bio::-webkit-scrollbar-thumb {
-    width: 2px;
-    background-color: rgba(225, 194, 137, 0.366);
+  width: 2px;
+  background-color: rgba(225, 194, 137, 0.366);
 }
-

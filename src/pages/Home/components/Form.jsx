@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form(props) {
   return (
-    <>
+    <React.Fragment>
       <form>
         <div className="form-group">
           <input
@@ -13,6 +13,6 @@ export default function Form(props) {
           />
         </div>
       </form>
-    </>
+    </React.Fragment>
   );
 }

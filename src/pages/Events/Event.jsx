@@ -38,7 +38,9 @@ export default function Event() {
         <h2 className="text-center custom_heading event_title">Our Events</h2>
         <div className="border_animation"></div>
         <div className="container-fluid">
-          <div className="d-flex flex-wrap justify-content-center ">{cards}</div>
+          <div className="d-flex flex-wrap justify-content-center ">
+            {cards}
+          </div>
         </div>
       </div>
       <Footer />
