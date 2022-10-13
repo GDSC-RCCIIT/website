@@ -91,6 +91,12 @@ To run this project, you will need to add the following environment variables to
 
 `REACT_APP_MEASUREMENT_ID`
 
+## Contributing
+
+Contributions are always welcome!
+
+See `CONTRIBUTE.md` for ways to get started.
+
 ## Deployment
 
 To start this project run
