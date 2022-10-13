@@ -16,24 +16,20 @@ import "./App.css";
 
 export default function App() {
   return (
-    <>
+    <React.Fragment>
       <DatabaseProvider>
         <Router>
           <Navbar />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/event" exact component={Event} />
-            <Route
-              path="/speakers"
-              exact
-              component={Speakers}
-            />
+            <Route path="/speakers" exact component={Speakers} />
             <Route path="/team" exact component={Team} />
             <Route path="/contact" exact component={Contact} />
             <Redirect to="/" />
           </Switch>
         </Router>
       </DatabaseProvider>
-    </>
+    </React.Fragment>
   );
 }
