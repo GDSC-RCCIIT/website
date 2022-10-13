@@ -9,7 +9,7 @@ export default function Speakers() {
   const { speakers } = useDatabase();
 
   if (speakers.length === 0) {
-    return <></>;
+    return <React.Fragment></React.Fragment>;
   }
 
   const speakersList = [];
@@ -47,7 +47,9 @@ export default function Speakers() {
         </h2>
         <div className="border_animation"></div>
         <div className="container">
-          <div className="d-flex justify-content-center flex-wrap">{speakersList}</div>
+          <div className="d-flex justify-content-center flex-wrap">
+            {speakersList}
+          </div>
         </div>
       </div>
       <Footer />

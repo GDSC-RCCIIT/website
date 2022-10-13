@@ -13,32 +13,31 @@
   color: gray;
 }
 
-
 /* ANIMATION -------> */
-.border_animation{
-    width: 100px;
-    height:4px;
-    border-radius: 15px;
-    background: #0F9D58;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+.border_animation {
+  width: 100px;
+  height: 4px;
+  border-radius: 15px;
+  background: #0f9d58;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
-.border_animation::after{
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 5px;
-    background: white;
-    animation: move 1.5s linear infinite alternate;
+.border_animation::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 5px;
+  background: white;
+  animation: move 1.5s linear infinite alternate;
 }
 
-@keyframes move{
-    from{
-        left: 0px;
-    }
-    to{
-        left: 95px;
-    }
+@keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 95px;
+  }
 }

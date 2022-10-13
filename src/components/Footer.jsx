@@ -10,11 +10,11 @@ const Footer = () => {
   const { data } = useDatabase();
 
   if (data["footer"] === undefined) {
-    return <></>;
+    return <React.Fragment></React.Fragment>;
   }
 
   return (
-    <>
+    <React.Fragment>
       <div className="container-fluid footer_bg">
         <div className="container footer">
           <FadeIn
@@ -80,7 +80,7 @@ const Footer = () => {
           </a>
         </p>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

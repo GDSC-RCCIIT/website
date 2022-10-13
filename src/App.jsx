@@ -15,7 +15,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <>
+    <React.Fragment>
       <DatabaseProvider>
         <Router>
           <Navbar />
@@ -31,6 +31,6 @@ export default function App() {
           </Routes>
         </Router>
       </DatabaseProvider>
-    </>
+    </React.Fragment>
   );
 }
