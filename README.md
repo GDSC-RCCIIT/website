@@ -110,7 +110,12 @@ To build this project run
 ```bash
   npm run build
 ```
+## Contributors ✨
 
+
+<a align="center" href="https://github.com/GDSC-RCCIIT/website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GDSC-RCCIIT/website&&max=817" />
+</a>
 
 ## Authors
 
