@@ -109,3 +109,5 @@ To build this project run
 ## Authors
 
 - [@danger-ahead](https://www.github.com/danger-ahead)
+
+## [Discord Server](https://discord.gg/6UGvTbb3qF)
