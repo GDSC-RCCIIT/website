@@ -3,7 +3,7 @@ import "./HeroSection.css";
 
 function HeroSection({ headline, description, imgStart, img, alt }) {
   return (
-    <>
+    <React.Fragment>
       <div className="home__hero-section _container">
         <div className="container">
           <div
@@ -28,7 +28,7 @@ function HeroSection({ headline, description, imgStart, img, alt }) {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }
 

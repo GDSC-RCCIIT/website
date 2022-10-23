@@ -13,7 +13,7 @@ export default function Home() {
   const { data } = useDatabase();
 
   if (data["home-page"] === undefined) {
-    return <></>;
+    return <React.Fragment></React.Fragment>;
   }
 
   const techTitles = Object.keys(data["home-page"].technologies.data);

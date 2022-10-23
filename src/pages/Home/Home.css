@@ -53,7 +53,6 @@
   background-repeat: no-repeat;
   background-color: rgba(10, 145, 255, 0.103);
   overflow: hidden;
-
 }
 
 .form_container {
@@ -234,7 +233,7 @@
   margin-bottom: 50px;
 }
 
-.footer .logo_img_{
+.footer .logo_img_ {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,7 +247,7 @@
   margin: 35px 10px;
 }
 
-.footer .logo_img_ img{
+.footer .logo_img_ img {
   width: 60px;
 }
 

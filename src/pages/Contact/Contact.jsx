@@ -10,7 +10,7 @@ export default function Contact() {
   const { data } = useDatabase();
 
   if (data["chapter-email"] === undefined) {
-    return <></>;
+    return <React.Fragment></React.Fragment>;
   }
 
   return (

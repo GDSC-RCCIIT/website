@@ -15,7 +15,7 @@ export default function Team() {
   const { data } = useDatabase();
 
   if (data.team === undefined || data.prevTeams === undefined) {
-    return <></>;
+    return <React.Fragment></React.Fragment>;
   }
 
   const members = Object.keys(data.team);
@@ -131,11 +131,15 @@ export default function Team() {
       <div className="contact_container" id="star-five ">
         <h4 className="text-center custom_heading">Management</h4>
         <div className="border_animation"></div>
-        <div className="d-flex flex-wrap justify-content-center">{teamLead}</div>
+        <div className="d-flex flex-wrap justify-content-center">
+          {teamLead}
+        </div>
         <br></br>
         <h4 className="text-center custom_heading">Core Team</h4>
         <div className="border_animation"></div>
-        <div className="d-flex flex-wrap justify-content-center custom_member">{team}</div>
+        <div className="d-flex flex-wrap justify-content-center custom_member">
+          {team}
+        </div>
         <br></br>
         <h4 className="text-center custom_heading">Other members</h4>
         <div className="border_animation"></div>
